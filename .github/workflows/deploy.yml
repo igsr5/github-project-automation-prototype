@@ -27,7 +27,7 @@ jobs:
           service_account: ${{ secrets.GCP_SERVICE_ACCOUNT_MAIL_ADDRESS }}
 
       - name: "Set up Cloud SDK"
-        uses: "google-github-actions/setup-gcloud@v0"
+        uses: "google-github-actions/setup-gcloud@v2"
 
       - name: "Configure docker to use the cloud cli"
         run: gcloud auth configure-docker --quiet
