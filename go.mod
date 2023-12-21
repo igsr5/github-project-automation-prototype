@@ -4,7 +4,7 @@ go 1.21.0
 
 require (
 	github.com/labstack/echo/v4 v4.11.2
-	go.uber.org/mock v0.3.0
+	go.uber.org/mock v0.4.0
 )
 
 require (
