@@ -1,5 +1,5 @@
 # Use Go 1.21 as the base image
-FROM golang:1.21
+FROM golang:1.23
 
 # Install required tools
 RUN apt-get update && apt-get install -y git \
